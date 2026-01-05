@@ -300,8 +300,8 @@ app.listen(PORT, () => {
   console.log('🔗 Using Kindo LLM API: https://llm.kindo.ai');
   console.log('🤖 Model: azure/gpt-4o');
   console.log('');
-  console.log('📄 Resume parsing: http://localhost:${PORT}/api/parse-resume');
-  console.log('🔗 LinkedIn import: http://localhost:${PORT}/api/parse-linkedin');
+  console.log(`📄 Resume parsing: http://localhost:${PORT}/api/parse-resume`);
+  console.log(`🔗 LinkedIn import: http://localhost:${PORT}/api/parse-linkedin`);
   
   // Verify API key is loaded
   if (process.env.KINDO_API_KEY) {
