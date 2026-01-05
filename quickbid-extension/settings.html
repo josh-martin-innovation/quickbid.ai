@@ -549,70 +549,6 @@
       font-size: 16px;
       font-weight: 600;
     }
-    
-    .method-selector {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-    
-    .method-card {
-      flex: 1;
-      padding: 20px;
-      border: 2px solid #e0e0e0;
-      border-radius: 8px;
-      text-align: center;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    
-    .method-card:hover {
-      border-color: #667eea;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
-    }
-    
-    .method-card.selected {
-      border-color: #667eea;
-      background: #e3f2fd;
-    }
-    
-    .method-icon {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-    
-    .method-title {
-      font-weight: 600;
-      color: #2c3e50;
-      margin-bottom: 5px;
-    }
-    
-    .method-desc {
-      font-size: 11px;
-      color: #7f8c8d;
-    }
-    
-    .linkedin-input-group {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 15px;
-    }
-    
-    .linkedin-input-group input {
-      flex: 1;
-    }
-    
-    .extract-btn {
-      background: #0077b5;
-      color: white;
-      padding: 12px 20px;
-      white-space: nowrap;
-    }
-    
-    .extract-btn:hover {
-      background: #006399;
-    }
   </style>
 </head>
 <body>
@@ -628,14 +564,13 @@
     </div>
     
     <div class="info-box">
-      <strong>💡 New! Import your profile faster</strong>
-      Upload your resume or import from LinkedIn to auto-fill your profile. Or continue using manual entry.
+      <strong>💡 New! Upload your resume for instant setup</strong>
+      Upload your resume (PDF, DOCX, or TXT) and let AI extract your information automatically. Or use manual entry for full control.
     </div>
     
     <!-- Tabs for different input methods -->
     <div class="tabs">
       <button class="tab active" data-tab="upload">📄 Upload Resume</button>
-      <button class="tab" data-tab="linkedin">🔗 LinkedIn Import</button>
       <button class="tab" data-tab="manual">✏️ Manual Entry</button>
     </div>
     
@@ -666,32 +601,6 @@
       <div class="info-box" style="margin-top: 15px; background: #fff3cd; border-left-color: #ffc107; color: #856404;">
         <strong>ℹ️ How it works:</strong>
         Upload your resume → AI extracts your info → Review and edit → Save profile
-      </div>
-    </div>
-    
-    <!-- Tab Content: LinkedIn Import -->
-    <div class="tab-content" id="linkedin-tab">
-      <div class="form-group">
-        <label>
-          LinkedIn Profile URL
-          <div class="label-description">Paste your LinkedIn profile URL (e.g., linkedin.com/in/yourname)</div>
-        </label>
-        <div class="linkedin-input-group">
-          <input type="url" id="linkedin-url" placeholder="https://www.linkedin.com/in/yourname">
-          <button class="extract-btn" id="extract-linkedin">
-            <span>🔗 Extract</span>
-          </button>
-        </div>
-      </div>
-      
-      <div class="info-box" style="background: #fff3cd; border-left-color: #ffc107; color: #856404;">
-        <strong>⚠️ Note:</strong>
-        LinkedIn import uses AI to parse your public profile. Make sure your LinkedIn profile is set to public or you're logged in. This feature requires backend support.
-      </div>
-      
-      <div class="info-box" style="margin-top: 10px;">
-        <strong>🔒 Privacy:</strong>
-        Your LinkedIn URL is only used to fetch your public profile data. We don't store your URL or access private information.
       </div>
     </div>
     
