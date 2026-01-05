@@ -1,0 +1,44 @@
+# QuickBid AI v1.3.0 - Resume Import & LinkedIn Integration
+
+## Release Date: January 5, 2026
+
+### 🆕 Major Features
+
+#### Resume Import System
+- **Paste Resume Text** - Copy/paste resume, AI extracts all fields
+- **Upload Resume** - TXT file support (PDF/DOCX coming soon)
+- **LinkedIn Integration** - Workaround available (direct import coming)
+- **AI-Powered Parsing** - Automatically extracts: name, title, email, skills, summary, achievements
+- **Preview Before Save** - Review extracted data before applying
+- **Edit Option** - Fine-tune before saving
+
+#### UI Enhancements
+- New import-profile.html page with 3 import methods
+- Beautiful card-based interface
+- Drag & drop file upload
+- Real-time preview of extracted data
+- Import button in settings page
+
+#### Backend Enhancements
+- New endpoint: /api/parse-resume-text
+- New endpoint: /api/parse-resume (file upload)
+- New endpoint: /api/parse-linkedin (placeholder)
+- Multer integration for file uploads
+- Structured JSON extraction from AI
+
+### 🔧 Improvements
+- Better AI prompt for job-specific proposals
+- Improved job description extraction
+- More Upwork-specific selectors
+- Better error messages
+
+### 📚 Documentation
+- RESUME_IMPORT_FEATURE.md - Complete import guide
+- Updated CHANGELOG
+- Usage examples and tips
+
+### Time Savings
+- Manual profile setup: 10-15 minutes
+- Resume import: 30 seconds
+- **95% time reduction!**
+

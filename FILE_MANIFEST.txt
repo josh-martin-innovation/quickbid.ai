@@ -1,0 +1,45 @@
+QuickBid AI - Complete File Manifest
+=====================================
+
+📁 Project Root Files:
+├── README.md                      - Main project documentation
+├── QUICKSTART.md                  - 5-minute setup guide
+├── SETUP_GUIDE.md                 - Complete setup instructions
+├── PROJECT_STRUCTURE.md           - Architecture documentation
+├── DEPLOYMENT_CHECKLIST.md        - Pre-launch checklist
+└── FILE_MANIFEST.txt              - This file
+
+📁 quickbid-backend/ (Node.js Backend Server)
+├── server.js                      - Main Express server (4KB)
+├── package.json                   - Dependencies configuration
+├── .env.example                   - Environment variables template
+├── .gitignore                     - Git ignore rules
+├── README.md                      - Backend documentation
+├── render.yaml                    - Render.com deployment config
+└── test-api.sh                    - API testing script
+
+📁 quickbid-extension/ (Chrome Extension)
+├── manifest.json                  - Extension configuration
+├── popup.html                     - Extension UI (2KB)
+├── popup.js                       - Extension logic (5KB)
+├── icon.png                       - Extension icon (128x128px)
+├── create_icon.py                 - Icon generation script
+└── README.md                      - Extension documentation
+
+Total Files: 18
+Total Size: ~30KB (excluding node_modules)
+
+Key Technologies:
+- Backend: Node.js, Express.js, Kindo AI API
+- Extension: Chrome Manifest V3, JavaScript
+- Deployment: Render.com / Railway.app
+
+Next Steps:
+1. Follow QUICKSTART.md for 5-minute setup
+2. Or follow SETUP_GUIDE.md for detailed instructions
+3. Use DEPLOYMENT_CHECKLIST.md before launching
+
+Support:
+- Documentation: All .md files in root
+- Kindo AI: https://docs.kindo.ai
+- Chrome Extensions: https://developer.chrome.com/docs/extensions/
